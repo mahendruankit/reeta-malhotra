@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+
+  img {
+    width: 20%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Prevents the image from having extra space below it */
+  }
+}
+
+.home_avatar {
+  img {
+    width: 20%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Prevents the image from having extra space below it */
+  }
+}

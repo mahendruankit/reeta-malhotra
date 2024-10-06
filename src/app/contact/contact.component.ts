@@ -5,9 +5,6 @@ import { CommonModule } from '@angular/common';
   selector: 'app-contact',
   standalone: true, // Standalone component
   imports: [CommonModule],
-  template: `
-    <h2>Contact Page</h2>
-    <p>This is the Contact page!</p>
-  `,
+  templateUrl: 'contact.component.html',
 })
 export class ContactComponent {}

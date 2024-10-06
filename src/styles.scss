@@ -16,3 +16,33 @@ nav a.active {
 hr {
   margin-top: 10px;
 }
+
+.container {
+  padding: 0.5em;
+}
+
+/* home.component.css */
+.flex-container {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items evenly */
+  margin: 20px; /* Add some margin */
+}
+
+.responsive-img {
+  width: 190px; /* Adjust the size of the image */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 20px; /* Space between the image and text */
+}
+
+.text-content {
+  flex: 1; /* Allow text content to take the remaining space */
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.flex-column {
+  display: flex; /* Use Flexbox */
+  flex-direction: column; /* Arrange items in a column */ /* Center items vertically */
+  margin: 20px; /* Add some margin around the container */
+}

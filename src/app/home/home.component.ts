@@ -5,9 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-home',
   standalone: true, // Standalone component
   imports: [CommonModule], // Import CommonModule for Angular directives like ngIf, ngFor, etc.
-  template: `
-    <h2>Home Page</h2>
-    <p>Welcome to the Home page!</p>
-  `,
+  templateUrl: 'home.component.html',
+  styleUrls: ['home.component.scss'],
 })
 export class HomeComponent {}
