@@ -92,7 +92,7 @@ hr {
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   nav {
-    flex-direction: column; /* Stack navigation links vertically */
+    flex-direction: row; /* Stack navigation links vertically */
     padding: 5px; /* Reduce padding for mobile */
     align-items: center; /* Center items horizontally */
   }
