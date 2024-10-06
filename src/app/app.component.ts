@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true, // Mark this as standalone
-  imports: [RouterModule], // Import RouterModule to use routing features
+  imports: [RouterModule, FooterComponent], // Import RouterModule to use routing features
   template: `
     <nav>
       <a routerLink="/home" routerLinkActive="active">Home</a>
@@ -17,6 +18,9 @@ import { RouterModule } from '@angular/router';
 
     <!-- Routed views will be displayed here -->
     <router-outlet></router-outlet>
+
+    <!-- Footer component -->
+    <app-footer></app-footer>
   `,
 })
 export class AppComponent {}

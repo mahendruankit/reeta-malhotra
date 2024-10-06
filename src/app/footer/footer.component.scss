@@ -1,0 +1,58 @@
+/* Footer main styles */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding for top and bottom */
+  text-align: center; /* Center text */
+  font-size: 0.9rem; /* Slightly smaller text size */
+}
+
+.footer-content {
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto; /* Center the content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+}
+
+/* Footer social section */
+.footer-social {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center the social icons */
+  margin: 10px 0; /* Add some margin for spacing */
+}
+
+.footer-social a {
+  color: #ff8c00; /* Orange icons */
+  margin: 0 10px; /* Spacing between icons */
+  font-size: 1.5rem; /* Size of icons */
+}
+
+.footer-social a:hover {
+  color: #ff7700; /* Darker shade on hover */
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #bbb; /* Lighter text for the copyright */
+}
+
+/* Footer link styles */
+.footer a {
+  color: orange; /* Change the link color to orange */
+  text-decoration: none; /* Optional: Remove underline from the link */
+}
+
+.footer a:hover {
+  color: darkorange; /* Change color on hover for better user experience */
+  text-decoration: underline; /* Optional: Underline on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    align-items: center; /* Center items */
+  }
+}
