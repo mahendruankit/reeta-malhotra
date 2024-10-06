@@ -5,6 +5,9 @@ body {
 }
 
 nav {
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center the links horizontally */
+  flex-wrap: wrap; /* Allow links to wrap if needed */
   background-color: #333;
   padding: 10px;
 }
@@ -91,6 +94,7 @@ hr {
   nav {
     flex-direction: column; /* Stack navigation links vertically */
     padding: 5px; /* Reduce padding for mobile */
+    align-items: center; /* Center items horizontally */
   }
 
   nav a {
